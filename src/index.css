@@ -6,6 +6,21 @@
 }
 
 /* Home Navigatinon */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color:  #4d02ce; 
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2b0076;
+;
+}
 
 /* Nav */
 
