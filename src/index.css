@@ -86,3 +86,32 @@ nav ul li a:hover {
   flex-direction: column;
   padding-top: 20px;
 }
+
+/* exercise 19*/
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc; 
+  margin-bottom: 10px; 
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-description {
+  flex: 1; 
+  margin: 0 10px;
+}
+
+.product-price {
+  color: red;
+}
+
+.product-price:hover {
+  color: green; 
+}
