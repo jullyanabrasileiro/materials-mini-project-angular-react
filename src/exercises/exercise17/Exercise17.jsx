@@ -6,8 +6,8 @@ const Exercise17 = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/exercise-17" element={<Home17 />} />
-        <Route path="/exercise-17/about" element={<About17 />} />
+        <Route path="/" element={<Home17 />} />
+        <Route path="/about" element={<About17 />} />
       </Routes>
     </Router>
   );

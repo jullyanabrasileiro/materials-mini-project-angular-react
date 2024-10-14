@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from '../../exercises/exercise16/Navbar';
 import Home from '../../exercises/exercise16/Home';
 import Profile from '../../exercises/exercise16/Profile';
@@ -9,9 +9,9 @@ const Exercise16 = () => {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/exercise-16" element={<Home />} />
-        <Route path="/exercise-16/profile" element={<Profile />} />
-        <Route path="/exercise-16/login" element={<Login />} />
+      <Route path="/" element={<Home />} />
+        <Route path="/exercise16/profile" element={<Profile />} />
+        <Route path="/exercise16/login" element={<Login />} />
       </Routes>
     </div>
   );
