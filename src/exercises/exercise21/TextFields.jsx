@@ -14,9 +14,12 @@ const TextFields = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>
+    <form style={{display:'flex',
+      justifyContent: 'center',
+      flexDirection: 'column',
+      alignItems:'center',}} onSubmit={handleSubmit}>
+      <div style={{padding: 15}}>
+        <label >
           Input 1:
           <input
             type="text"
