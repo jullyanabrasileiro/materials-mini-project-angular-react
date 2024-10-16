@@ -11,15 +11,12 @@ const Exercise21 = () => {
     <div style={{ padding: 20 }}>
       <h1>Exercise 21</h1>
       
-      {/* Slider Component */}
       <h2>Slider</h2>
       <SliderComponent />
 
-      {/* Delete Button */}
       <h2>Delete Button</h2>
       <DeleteButton onClick={handleDelete} />
-
-      {/* Text Fields */}
+      
       <h2>Text Fields</h2>
       <TextFields />
     </div>
