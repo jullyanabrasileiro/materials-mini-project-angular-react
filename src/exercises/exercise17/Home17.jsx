@@ -4,7 +4,7 @@ const Home17 = () => {
   const navigate = useNavigate();
 
   const goToAbout = () => {
-    navigate('/exercise-17/about');
+    navigate('about');
   };
 
   return (
