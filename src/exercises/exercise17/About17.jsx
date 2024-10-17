@@ -8,8 +8,14 @@ const About17 = () => {
   };
 
   return (
-    <div>
-      <h1>About - Exercise 17</h1>
+    <div
+      style={{display: 'flex',
+      alignItems: 'center',
+      alignContent: 'center',
+      flexDirection: 'column',
+      padding: 50,
+    }}>
+      <h1 style={{padding: 20}}>About - Exercise 17</h1>
       <p>This is the about page.</p>
       <button onClick={goToHome}>Back to Home</button>
     </div>
