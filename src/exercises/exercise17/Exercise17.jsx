@@ -6,7 +6,7 @@ const Exercise17 = () => {
   return (
     <Routes>
       <Route path="/" element={<Home17 />} />
-      <Route path="/about" element={<About17 />} />
+      <Route path="about" element={<About17 />} />
     </Routes>
   );
 };

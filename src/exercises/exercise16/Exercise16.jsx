@@ -10,8 +10,8 @@ const Exercise16 = () => {
       <Navbar />
       <Routes>
       <Route path="/" element={<Home />} />
-        <Route path="/exercise16/profile" element={<Profile />} />
-        <Route path="/exercise16/login" element={<Login />} />
+      <Route path="profile" element={<Profile />} />
+      <Route path="login" element={<Login />} /> 
       </Routes>
     </div>
   );
