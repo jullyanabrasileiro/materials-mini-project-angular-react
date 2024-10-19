@@ -19,11 +19,25 @@ const OrderForm = () => {
   };
 
   return (
-    <div>
-      <h1>Order a Hamburger</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>
+    <div 
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      minHeight: '100vh',
+      flexDirection: 'column',
+      backgroundColor: '#f5f5f5', }}>
+
+      <h1 style={{paddingBottom:20,}}>Order a Hamburger</h1>
+      <form onSubmit={handleSubmit} 
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexDirection: 'column',
+            backgroundColor: '#f5f5f5', }}>
+        <div style={{paddingBottom:20}}>
+          <label >
             Name:
             <input
               type="text"
@@ -33,7 +47,7 @@ const OrderForm = () => {
             />
           </label>
         </div>
-        <div>
+        <div style={{paddingBottom:20}}>
           <label>
             Email:
             <input
@@ -44,7 +58,7 @@ const OrderForm = () => {
             />
           </label>
         </div>
-        <div>
+        <div style={{paddingBottom:20}}>
           <label>
             Do you want to order chips?
             <select
@@ -58,16 +72,18 @@ const OrderForm = () => {
             </select>
           </label>
         </div>
-        <div>
-          <label>
+        <div style={{paddingBottom:20}}>
+          <label style={{ display: 'flex',justifyContent: 'center', marginBottom: 5 }}>
             Special Request:
-            <textarea
+
+          </label>
+          <textarea
               value={specialRequest}
               onChange={(e) => setSpecialRequest(e.target.value)}
               rows="4"
               cols="50"
             />
-          </label>
+
         </div>
         <div>
           <label>

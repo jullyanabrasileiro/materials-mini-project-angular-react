@@ -11,9 +11,9 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h1>Login</h1>
+      <h1 style={{paddingBottom:20,}}>Login</h1>
       <form onSubmit={handleLogin}>
-        <div>
+        <div style={{paddingBottom:20,}}>
           <label>Username:</label>
           <input
             type="text"
@@ -29,7 +29,7 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <button className="login-container-btn" type="submit">Login</button>
+        <div style={{ display: 'flex', justifyContent: 'center' }}><button className="login-container-btn" type="submit">Login</button></div>
       </form>
     </div>
   );
